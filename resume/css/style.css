@@ -1,0 +1,55 @@
+*{margin: 0;padding: 0;}
+body{margin: 0;padding: 0;background-color: rgb(39, 26, 64);color: #fff;}
+h1{font-size: 46px;margin: 10px 0;}
+ul{list-style: none;}
+.group:before,.group:after{content:'';display: block;line-height: 0;height: 0;font-size: 0;clear: both;}
+.group{*zoom:1;}
+.fl{float: left;}
+.fr{float: right;}
+.txt-center{text-align: center;}
+.color-light{color: #13b0d4;}
+.page-title{color: #13b0d4;text-shadow: 2px 2px 2px #4c6477;}
+/*导航圈圈的颜色设置*/
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span{background: #fff;}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {border: 1px solid #fff; }
+/*首页*/
+.home-page .img-box{margin: 0 auto;width: 200px;height: 200px;border-radius: 50%;}
+.home-page .my-img{width: 190px;height: 190px;border: 5px solid #13b0d4;border-radius: 50%;}
+.home-page .lan{font-size: 20px;margin-bottom: 6px;}
+.home-page .post{font-size: 28px;margin-bottom: 6px;}
+/*关于我*/
+.about-page .about-title{color: #13b0d4;}
+.about-page .about-content{height: 40px;width: 60%;margin: 20px auto;}
+.about-page .content-list>li{width: 25%;height: 40px;float: left;font-size: 20px;text-align: center;line-height: 40px;}
+.about-page .about-item>i{display: inline-block;vertical-align: -9px;margin-right: 5px;width: 30px;height: 30px;background-image: url("../images/about_icon.png");background-size: 88px;}
+.about-item .education{background: no-repeat -7px -7px;}
+.about-item .age{background: no-repeat -7px -50px;}
+.about-item .coordinate{background: no-repeat -7px -88px;}
+.about-item .status{background: no-repeat -7px -136px;}
+.about-page .about-info::before,.about-page .about-info::after{content: '';display: block;position: absolute;width: 50px;height: 50px;}
+.about-page .about-info::before{border-top: 1px solid #13b0d4;border-left: 1px solid #13b0d4;left: 0;top: 0;}
+.about-page .about-info::after{border-bottom: 1px solid #13b0d4;border-right: 1px solid #13b0d4;right: 0;bottom: 0;}
+.about-page .about-info{height: 82px;width: 60%;margin: 0 auto;position: relative;line-height: 28px;padding: 20px 0;}
+/*专业技能*/
+.skill-page .tag-panel{margin: 15px auto;text-align: center;}
+.skill-page .tag{color: #13b0d4;border: 1px solid #13b0d4;border-radius: 3px;display: inline-block;padding: 2px 8px;margin: 0 3px 3px 0;}
+.skill-page .expert{opacity: 1;}
+.skill-page .familiar{opacity: 0.75;}
+/*工作经历*/
+.experience-page .exp-disc{margin: 10px auto;}
+.experience-page .exp-content{text-align: center;margin: 20px auto;}
+.experience-page .exp-content h3{color: #13b0d4;font-size: 24px;}
+.experience-page .exp-content h6{margin: 4px auto;font-size: 16px;}
+.experience-page .exp-content p{line-height: 26px;}
+.experience-page .exp-time{position: relative;display: inline-block;margin: 0 auto;color: #fff;font-size: 12px;border-bottom: 2px solid #fff;}
+.exp-time a{display: inline-block;text-decoration: none;color: #fff;position: relative;z-index: 1;width: 120px;text-align: center;padding-bottom: 12px;}
+.exp-time a.active{color: #13b0d4;}
+.exp-time a::after{position: absolute;content: '';display: block;width: 8px;height: 8px;border: 1px solid #fff;border-radius: 50%;left: 56px;bottom: -6px;}
+.exp-time a.active::after{border: 1px solid #13b0d4;}
+.exp-time .exp-line{position: absolute;bottom: -2px;height: 2px;width: 120px;display: inline-block;background: #13b0d4;left: 0;}
+/*联系我*/
+.contact-page .contact-content{display: inline-block;text-align: left;}
+.contact-page .contact-way>i{display: inline-block;vertical-align: -10px;margin-right: 5px;width: 30px;height: 30px;background-image: url("../images/contact_ico.png");background-size: 40px;}
+.contact-page .email{background: no-repeat -4px -2px;}
+.contact-page .qq{background: no-repeat -5px -62px;}
+.contact-page .phone{background: no-repeat -2px -24px;background-size: 34px !important;}
